@@ -242,6 +242,10 @@ nav ul li:hover::before{
   .our-sponser-area{
     text-align: center;
   }
+.single-brand img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
   .brand-info {
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
